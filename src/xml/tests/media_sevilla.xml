@@ -1,0 +1,1583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+ <ResultList xmlns="http://www.orienteering.org/datastandard/3.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ iofVersion="3.0"
+ createTime="2023-05-06T12:38:42.833"
+ creator="SportSoftware OE12 (M) V.12.1">
+<Event>
+<Name>CAMPEONATO DE ESPAÑA DE MTB-O 2023</Name>
+<Race>
+<RaceNumber>1</RaceNumber>
+<Name>Media Distancia</Name>
+<StartTime>
+<Date>2023-05-06</Date>
+<Time>10:10:00.000</Time>
+</StartTime>
+</Race>
+</Event>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<!-- SplitTimeControls: 33,39,48,51,52 -->
+<Id>1</Id>
+<Name>M-E</Name>
+<ShortName>M-E</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>0.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+<Fee>
+<Name>Fee per stage</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9001</Id>
+<Name>R1</Name>
+<Length>19000</Length>
+<Climb>335</Climb>
+<NumberOfControls>23</NumberOfControls>
+</Course>
+<PersonResult>
+<EntryId>133103</EntryId>
+<Person sex="M">
+<Id>1209</Id>
+<Name>
+<Family>López Costoya</Family>
+<Given>Francisco Javier</Given>
+</Name>
+<BirthDate>1968-09-15</BirthDate>
+<Address>
+<CareOf>35302665B</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">680459912</Contact>
+</Person>
+<Organisation>
+<Id>188</Id>
+<Name>OP BETANZOS</Name>
+<ShortName>OP BETANZOS</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>168</BibNumber>
+<StartTime>2023-05-06T11:52:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1679</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8623102</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>32.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133719</EntryId>
+<Person sex="M">
+<Id>20221</Id>
+<Name>
+<Family>Blázquez Blázquez</Family>
+<Given>David</Given>
+</Name>
+<BirthDate>1982-11-28</BirthDate>
+<Address>
+<CareOf>08109459G</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">678216635</Contact>
+</Person>
+<Organisation>
+<Id>144</Id>
+<Name>ALCOR_EXTREMADURA</Name>
+<ShortName>ALCOR_EXTREMADURA</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>152</BibNumber>
+<StartTime>2023-05-06T11:48:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>39</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8215128</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>32.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>131816</EntryId>
+<Person sex="M">
+<Id>14045</Id>
+<Name>
+<Family>González García</Family>
+<Given>Javier</Given>
+</Name>
+<BirthDate>1986-12-29</BirthDate>
+<Address>
+<CareOf>09445539Z</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">696716140</Contact>
+</Person>
+<Organisation>
+<Id>124</Id>
+<Name>C.O.GUADALAJARA</Name>
+<ShortName>C.O.GUADALAJARA</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>145</BibNumber>
+<StartTime>2023-05-06T11:54:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1763</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8001026</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>32.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133634</EntryId>
+<Person sex="M">
+<Id>5217</Id>
+<Name>
+<Family>Toll Clos</Family>
+<Given>David</Given>
+</Name>
+<BirthDate>1975-04-10</BirthDate>
+<Address>
+<CareOf>38828854R</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">973274922</Contact>
+</Person>
+<Organisation>
+<Id>92</Id>
+<Name>PEÑA_GUARA</Name>
+<ShortName>PEÑA_GUARA</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>132</BibNumber>
+<StartTime>2023-05-06T11:40:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1529</Time>
+</SplitTime>
+<SplitTime>
+<ControlCode>48</ControlCode>
+<Time>2958</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8130180</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>32.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133241</EntryId>
+<Person sex="M">
+<Id>222</Id>
+<Name>
+<Family>Marín Vargas</Family>
+<Given>Juan Francisco</Given>
+</Name>
+<BirthDate>1981-08-09</BirthDate>
+<Address>
+<CareOf>74661974H</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">667819888</Contact>
+</Person>
+<Organisation>
+<Id>244</Id>
+<Name>SRK</Name>
+<ShortName>SRK</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>214</BibNumber>
+<StartTime>2023-05-06T12:06:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1281</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8643490</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>32.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133721</EntryId>
+<Person sex="M">
+<Id>23958</Id>
+<Name>
+<Family>Mac-Mahon Moreira</Family>
+<Given>Rui</Given>
+</Name>
+<BirthDate>1993-10-01</BirthDate>
+<Address>
+<CareOf>CB158784</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">918197151</Contact>
+</Person>
+<Organisation>
+<Id>1001</Id>
+<Name>BTTLoulé/ELEVIS</Name>
+<ShortName>BTTLoulé/ELEVIS</ShortName>
+<Country code="PRT">PRT</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>250</BibNumber>
+<StartTime>2023-05-06T12:00:00.000</StartTime>
+<Status>NotCompeting</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>39</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8633548</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>32.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>131390</EntryId>
+<Person sex="M">
+<Id>9248</Id>
+<Name>
+<Family>Rodríguez López</Family>
+<Given>Rodrigo Iván</Given>
+</Name>
+<BirthDate>1979-01-24</BirthDate>
+<Address>
+<CareOf>33337765R</CareOf>
+</Address>
+</Person>
+<Organisation>
+<Id>296</Id>
+<Name>COMPÁS</Name>
+<ShortName>COMPÁS</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>235</BibNumber>
+<StartTime>2023-05-06T11:32:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>3048</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8017353</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>0.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>131260</EntryId>
+<Person sex="M">
+<Id>8428</Id>
+<Name>
+<Family>Breijo Martinez</Family>
+<Given>Yago</Given>
+</Name>
+<BirthDate>1989-03-06</BirthDate>
+<Address>
+<CareOf>32707770E</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">66666353</Contact>
+</Person>
+<Organisation>
+<Id>291</Id>
+<Name>XESTEIRAS</Name>
+<ShortName>XESTEIRAS</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>228</BibNumber>
+<StartTime>2023-05-06T11:56:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>39</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8163593</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>32.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>132916</EntryId>
+<Person sex="M">
+<Id>13219</Id>
+<Name>
+<Family>Roose</Family>
+<Given>Riivo</Given>
+</Name>
+<BirthDate>1987-07-23</BirthDate>
+<Address>
+<CareOf>Y4023989S</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">37256656382</Contact>
+</Person>
+<Organisation>
+<Id>272</Id>
+<Name>CAT-O</Name>
+<ShortName>CAT-O</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>225</BibNumber>
+<StartTime>2023-05-06T11:50:00.000</StartTime>
+<Status>NotCompeting</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1436</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8331337</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>32.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>132621</EntryId>
+<Person sex="M">
+<Id>1601</Id>
+<Name>
+<Family>García Pardos</Family>
+<Given>Jorge</Given>
+</Name>
+<BirthDate>1988-11-26</BirthDate>
+<Address>
+<CareOf>25480216B</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">625456647</Contact>
+</Person>
+<Organisation>
+<Id>92</Id>
+<Name>PEÑA_GUARA</Name>
+<ShortName>PEÑA_GUARA</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>128</BibNumber>
+<StartTime>2023-05-06T11:44:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1434</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8261188</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>32.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133259</EntryId>
+<Person sex="M">
+<Id>7736</Id>
+<Name>
+<Family>Sanz Alejandre</Family>
+<Given>Juan</Given>
+</Name>
+<BirthDate>2000-04-11</BirthDate>
+<Address>
+<CareOf>80168684E</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">644345449</Contact>
+</Person>
+<Organisation>
+<Id>26</Id>
+<Name>COMA</Name>
+<ShortName>COMA</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>46</BibNumber>
+<StartTime>2023-05-06T12:10:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1302</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8646243</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>32.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133517</EntryId>
+<Person sex="M">
+<Id>12123</Id>
+<Name>
+<Family>González Machuca</Family>
+<Given>Fernando José</Given>
+</Name>
+<BirthDate>2002-02-28</BirthDate>
+<Address>
+<CareOf>25612498C</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">633955451</Contact>
+</Person>
+<Organisation>
+<Id>26</Id>
+<Name>COMA</Name>
+<ShortName>COMA</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>37</BibNumber>
+<StartTime>2023-05-06T11:30:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>39</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8280202</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>20.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133337</EntryId>
+<Person sex="M">
+<Id>10147</Id>
+<Name>
+<Family>Muñoz Guerrero</Family>
+<Given>Francisco Javier</Given>
+</Name>
+<BirthDate>1983-06-17</BirthDate>
+<Address>
+<CareOf>44409317C</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">645984295</Contact>
+</Person>
+<Organisation>
+<Id>8</Id>
+<Name>ALTAIR</Name>
+<ShortName>ALTAIR</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>15</BibNumber>
+<StartTime>2023-05-06T12:02:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1245</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8647686</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>32.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133335</EntryId>
+<Person sex="M">
+<Id>17245</Id>
+<Name>
+<Family>Marques  Ferreira</Family>
+<Given>Daniel</Given>
+</Name>
+<BirthDate>1984-09-05</BirthDate>
+<Address>
+<CareOf>12583398</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">3.52E+11</Contact>
+</Person>
+<Organisation>
+<Id>8</Id>
+<Name>ALTAIR</Name>
+<ShortName>ALTAIR</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>13</BibNumber>
+<StartTime>2023-05-06T11:46:00.000</StartTime>
+<Status>NotCompeting</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>39</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8632825</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>32.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133705</EntryId>
+<Person sex="M">
+<Id>9556</Id>
+<Name>
+<Family>Chousa Esteban</Family>
+<Given>Enrique</Given>
+</Name>
+<BirthDate>1998-02-23</BirthDate>
+<Address>
+<CareOf>05965225Z</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">675108617</Contact>
+</Person>
+<Organisation>
+<Id>42</Id>
+<Name>IMPERDIBLE</Name>
+<ShortName>IMPERDIBLE</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>57</BibNumber>
+<StartTime>2023-05-06T11:58:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1379</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8515071</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>32.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133307</EntryId>
+<Person sex="M">
+<Id>20070</Id>
+<Name>
+<Family>Yanez Orpi</Family>
+<Given>Oscar</Given>
+</Name>
+<BirthDate>1980-08-12</BirthDate>
+<Address>
+<CareOf>46764527F</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">654125282</Contact>
+</Person>
+<Organisation>
+<Id>90</Id>
+<Name>GOXTREME BARCELONA</Name>
+<ShortName>GOXTREME BARCELONA</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>124</BibNumber>
+<StartTime>2023-05-06T11:42:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1507</Time>
+</SplitTime>
+<SplitTime>
+<ControlCode>48</ControlCode>
+<Time>3373</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8217779</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>32.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133670</EntryId>
+<Person sex="M">
+<Id>5140</Id>
+<Name>
+<Family>Martinez Flor</Family>
+<Given>Alejandro</Given>
+</Name>
+<BirthDate>1994-06-21</BirthDate>
+<Address>
+<CareOf>46083448G</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">696880273</Contact>
+</Person>
+<Organisation>
+<Id>78</Id>
+<Name>VILLENA-O</Name>
+<ShortName>VILLENA-O</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>107</BibNumber>
+<StartTime>2023-05-06T11:38:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>39</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8460834</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>32.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133285</EntryId>
+<Person sex="M">
+<Id>12117</Id>
+<Name>
+<Family>López Plazas</Family>
+<Given>César</Given>
+</Name>
+<BirthDate>2001-02-07</BirthDate>
+<Address>
+<CareOf>23832886X</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">634651314</Contact>
+</Person>
+<Organisation>
+<Id>48</Id>
+<Name>LORCA-O</Name>
+<ShortName>LORCA-O</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>65</BibNumber>
+<StartTime>2023-05-06T11:36:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>39</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8638590</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>32.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133625</EntryId>
+<Person sex="M">
+<Id>74</Id>
+<Name>
+<Family>Garrido Sáenz De Tejada</Family>
+<Given>Jesús María</Given>
+</Name>
+<BirthDate>1986-05-10</BirthDate>
+<Address>
+<CareOf>28825604A</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">955781154</Contact>
+</Person>
+<Organisation>
+<Id>42</Id>
+<Name>IMPERDIBLE</Name>
+<ShortName>IMPERDIBLE</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>60</BibNumber>
+<StartTime>2023-05-06T11:34:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1927</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8633565</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>36.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="F">
+<!-- SplitTimeControls: 33,48,39,51,52 -->
+<Id>2</Id>
+<Name>F-E</Name>
+<ShortName>F-E</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>0.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+<Fee>
+<Name>Fee per stage</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9003</Id>
+<Name>R3</Name>
+<Length>15600</Length>
+<Climb>285</Climb>
+<NumberOfControls>18</NumberOfControls>
+</Course>
+<PersonResult>
+<EntryId>133701</EntryId>
+<Person sex="F">
+<Id>10083</Id>
+<Name>
+<Family>Shoemaker</Family>
+<Given>Ashley Danielle</Given>
+</Name>
+<BirthDate>1984-07-20</BirthDate>
+<Address>
+<CareOf>Y3121891T</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">674715978</Contact>
+</Person>
+<Organisation>
+<Id>160</Id>
+<Name>COHU</Name>
+<ShortName>COHU</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>159</BibNumber>
+<StartTime>2023-05-06T11:47:00.000</StartTime>
+<Status>NotCompeting</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1416</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8670675</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>30.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133490</EntryId>
+<Person sex="F">
+<Id>12743</Id>
+<Name>
+<Family>Yllan Ortiz</Family>
+<Given>Elena</Given>
+</Name>
+<BirthDate>2001-12-30</BirthDate>
+<Address>
+<CareOf>50347276T</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">634591813</Contact>
+</Person>
+<Organisation>
+<Id>137</Id>
+<Name>ALABARDA-O</Name>
+<ShortName>ALABARDA-O</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>151</BibNumber>
+<StartTime>2023-05-06T12:05:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1448</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8301201</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>30.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133557</EntryId>
+<Person sex="F">
+<Id>6022</Id>
+<Name>
+<Family>Bello Rodríguez</Family>
+<Given>Olalla</Given>
+</Name>
+<BirthDate>1980-09-16</BirthDate>
+<Address>
+<CareOf>32841598J</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">605036159</Contact>
+</Person>
+<Organisation>
+<Id>115</Id>
+<Name>GALLAECIA_RAID</Name>
+<ShortName>GALLAECIA_RAID</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>137</BibNumber>
+<StartTime>2023-05-06T11:43:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1437</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8103012</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>30.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133286</EntryId>
+<Person sex="F">
+<Id>459</Id>
+<Name>
+<Family>Aguilera Viladomiu</Family>
+<Given>Mònica</Given>
+</Name>
+<BirthDate>1974-01-05</BirthDate>
+<Address>
+<CareOf>46236773B</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">620133798</Contact>
+</Person>
+<Organisation>
+<Id>272</Id>
+<Name>CAT-O</Name>
+<ShortName>CAT-O</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>223</BibNumber>
+<StartTime>2023-05-06T11:45:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1143</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8050174</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>30.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133573</EntryId>
+<Person sex="F">
+<Id>8295</Id>
+<Name>
+<Family>Pizarro Corral</Family>
+<Given>Esther</Given>
+</Name>
+<BirthDate>1978-08-16</BirthDate>
+<Address>
+<CareOf>05675041K</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">667651362</Contact>
+</Person>
+<Organisation>
+<Id>224</Id>
+<Name>ITACA</Name>
+<ShortName>ITACA</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>204</BibNumber>
+<StartTime>2023-05-06T11:53:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1695</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8670267</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>30.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133394</EntryId>
+<Person sex="F">
+<Id>8047</Id>
+<Name>
+<Family>Montes Villar</Family>
+<Given>Veronica</Given>
+</Name>
+<BirthDate>1983-11-24</BirthDate>
+<Address>
+<CareOf>09443503W</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">657813874</Contact>
+</Person>
+<Organisation>
+<Id>188</Id>
+<Name>OP BETANZOS</Name>
+<ShortName>OP BETANZOS</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>170</BibNumber>
+<StartTime>2023-05-06T11:55:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>48</ControlCode>
+<Time>830</Time>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1725</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8011636</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>30.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133546</EntryId>
+<Person sex="F">
+<Id>11460</Id>
+<Name>
+<Family>Cuesta Santamaria</Family>
+<Given>Mercedes</Given>
+</Name>
+<BirthDate>1976-01-28</BirthDate>
+<Address>
+<CareOf>78889019P</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">649523584</Contact>
+</Person>
+<Organisation>
+<Id>21</Id>
+<Name>COBI</Name>
+<ShortName>COBI</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>23</BibNumber>
+<StartTime>2023-05-06T11:51:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1937</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8019261</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>30.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133336</EntryId>
+<Person sex="F">
+<Id>13051</Id>
+<Name>
+<Family>Miranda Guerrero</Family>
+<Given>Miriam</Given>
+</Name>
+<BirthDate>1981-04-20</BirthDate>
+<Address>
+<CareOf>80072616W</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">636327373</Contact>
+</Person>
+<Organisation>
+<Id>8</Id>
+<Name>ALTAIR</Name>
+<ShortName>ALTAIR</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>14</BibNumber>
+<StartTime>2023-05-06T11:57:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>2198</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8659366</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>30.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133334</EntryId>
+<Person sex="F">
+<Id>13059</Id>
+<Name>
+<Family>García Rodríguez</Family>
+<Given>Nerea</Given>
+</Name>
+<BirthDate>2001-07-14</BirthDate>
+<Address>
+<CareOf>07271913A</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">636935808</Contact>
+</Person>
+<Organisation>
+<Id>8</Id>
+<Name>ALTAIR</Name>
+<ShortName>ALTAIR</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>12</BibNumber>
+<StartTime>2023-05-06T12:09:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime>
+<ControlCode>39</ControlCode>
+<Time>1083</Time>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8019290</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>30.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133548</EntryId>
+<Person sex="F">
+<Id>9027</Id>
+<Name>
+<Family>Villa Rodríguez</Family>
+<Given>Paola</Given>
+</Name>
+<BirthDate>2002-05-07</BirthDate>
+<Address>
+<CareOf>71731328D</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">656610232</Contact>
+</Person>
+<Organisation>
+<Id>110</Id>
+<Name>PILOÑA_DEPORTE</Name>
+<ShortName>PILOÑA_DEPORTE</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>134</BibNumber>
+<StartTime>2023-05-06T11:41:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>39</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8633574</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>34.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>133227</EntryId>
+<Person sex="F">
+<Id>3939</Id>
+<Name>
+<Family>Arina Andueza</Family>
+<Given>Miren</Given>
+</Name>
+<BirthDate>1988-09-19</BirthDate>
+<Address>
+<CareOf>72802873F</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">686840057</Contact>
+</Person>
+<Organisation>
+<Id>92</Id>
+<Name>PEÑA_GUARA</Name>
+<ShortName>PEÑA_GUARA</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>126</BibNumber>
+<StartTime>2023-05-06T12:01:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>39</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8516556</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>30.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<EntryId>131572</EntryId>
+<Person sex="F">
+<Id>19449</Id>
+<Name>
+<Family>Lüscher Alemany</Family>
+<Given>Jana</Given>
+</Name>
+<BirthDate>2000-07-24</BirthDate>
+<Address>
+<CareOf>49656242R</CareOf>
+</Address>
+<Contact type="MobilePhoneNumber">662252207</Contact>
+</Person>
+<Organisation>
+<Id>77</Id>
+<Name>UEVIC</Name>
+<ShortName>UEVIC</ShortName>
+<Country code="ESP">ESP</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>105</BibNumber>
+<StartTime>2023-05-06T11:49:00.000</StartTime>
+<Status>Inactive</Status>
+<SplitTime status="Missing">
+<ControlCode>33</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>48</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>39</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>51</ControlCode>
+</SplitTime>
+<SplitTime status="Missing">
+<ControlCode>52</ControlCode>
+</SplitTime>
+<ControlCard>8237654</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>30.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+</ResultList>
