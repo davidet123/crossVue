@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Home from '../views/Home.vue'
 import Menu from '../views/Menu.vue'
+import Clasificacion from '../views/Clasificacion.vue'
 
 
 
@@ -49,6 +50,11 @@ const router = createRouter({
       path: '/directo',
       name: 'directo',
       component: Home
+    },
+    {
+      path: '/clasificacion',
+      name: 'clasificacion',
+      component: Clasificacion
     },
 
   ]

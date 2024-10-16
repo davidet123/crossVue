@@ -7,6 +7,9 @@ import { defineConfig } from 'vite'
 import { fileURLToPath, URL } from 'node:url'
 import dsv from '@rollup/plugin-dsv'
 
+// PLugins
+// import { nodePolyfills } from 'vite-plugin-node-polyfills'
+
 
 
 // https://vitejs.dev/config/
@@ -15,6 +18,7 @@ export default defineConfig({
     vue({ 
       template: { transformAssetUrls }
     }),
+    // nodePolyfills({include: ['net']}),
     dsv(),
     // https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vite-plugin
     vuetify({
@@ -40,7 +44,7 @@ export default defineConfig({
     ],
   },
   server: {
-    port: 3000,
+    port: 9000,
     /* fs: {
       allow: ['./src']
     } */

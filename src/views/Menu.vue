@@ -6,6 +6,7 @@
   </v-row>
   <v-row>
     <v-col class="text-center">
+      <Server />
       <v-btn color="success" @click="reset">RESET</v-btn>
     </v-col>
   </v-row>
@@ -28,6 +29,20 @@
             density="compact"
             label="Numero checkpoints"
             v-model="numCheckPoints"
+            @update:model-value="modificacion = true"
+          ></v-text-field>
+        </v-col>
+        <v-col cols="3" class="text-center">
+          <v-select
+          :items="listaTipoBanderas"
+          v-model="tipoBanderas"
+          ></v-select>
+        </v-col>
+        <v-col cols="3" class="text-center">
+          <v-text-field
+            density="compact"
+            label="Campo bandera"
+            v-model="campoBandera"
             @update:model-value="modificacion = true"
           ></v-text-field>
         </v-col>
@@ -206,7 +221,8 @@
   </v-row>
   <v-row>
     <v-col cols="6" class="text-right">
-      <v-btn color="error" @click="guardar" :disabled="!modificacion">GUARDAR</v-btn>
+      <v-btn color="error" @click="guardar">GUARDAR</v-btn>
+      <!-- <v-btn color="error" @click="guardar" :disabled="!modificacion">GUARDAR</v-btn> -->
     </v-col>
     <v-col cols="6" class="text-left">
       <v-btn color="success" @click="empezar" >Empezar</v-btn>
@@ -221,9 +237,13 @@
   import { getCurrentInstance } from 'vue'
   import router from "@/router"
 
+  import Server from "@/components/Server.vue"
+
   const instance = getCurrentInstance();
 
   const appStore = useAppStore()
+
+  // appStore.reset()
 
   const { datos_carrera } = storeToRefs(appStore)
 
@@ -234,6 +254,11 @@
   const numCheckPoints = ref(datos_carrera.value.numCheckPoints)
 
   const checkPoints = ref(datos_carrera.value.checkPoints)
+
+  const tipoBanderas = ref(datos_carrera.value.tipoBanderas)
+  const listaTipoBanderas = ref(["Comunidades", "Paises"])
+  const campoBandera = ref(datos_carrera.value.campoBandera)
+  
 
   // Presentacion
   const carreraPresentacion = ref(datos_carrera.value.presentacion.carrera)
@@ -288,6 +313,8 @@
       horaCero: horaCero.value,
       numCheckPoints: parseInt(numCheckPoints.value),
       checkPoints: checkPoints.value,
+      tipoBanderas: tipoBanderas.value,
+      campoBandera: campoBandera.value,
       presentacion: {
         carrera: carreraPresentacion.value,
         categoria: categoriaPresentacion.value,

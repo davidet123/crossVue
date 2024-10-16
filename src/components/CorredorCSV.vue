@@ -3,26 +3,77 @@
     <!-- <div v-if="corredor.Dorsal == dorsal || dorsalElite == dorsal || !dorsal" class="mx-2" > -->
 
       <v-row>
-        <v-col cols="8">
+        <v-col cols="12">
           <v-row class="ma-0 pa-0">
-            <v-col class="ma-0 pa-0" cols="2">
+            <v-col class="ma-0 pa-0 text-center" cols="1">
               <p>Dorsal</p>
               <h4>{{ corredor["Dorsal"] }}</h4>
               <!-- | {{ corredor["Dorsal alt."] }} -->
             </v-col>
-            <v-col class="ma-0 pa-0" cols="7">
+            <v-col class="ma-0 pa-0 text-center" cols="1">
+              <p>Categoria</p>
+              <h4>{{ corredor["Corto"] }}</h4>
+              <!-- | {{ corredor["Dorsal alt."] }} -->
+            </v-col>
+            <v-col class="ma-0 pa-0 text-center" cols="6">
               <p>Nombre</p>
               <h3>{{ corredor.Nombre }} {{ corredor.Apellidos }}</h3>
+              <v-row class="ma-0 pb-0">
+                <v-col class="ma-0 pa-0 text-center" cols="4"><v-btn @click="enviarDSK()"  color="success" size="x-small">DSK NOMBRE</v-btn></v-col>
+                <v-col class="ma-0 pa-0 text-center" cols="4">
+                  <v-btn v-if="!seguimiento" :disabled="desactivarBoton" color="success" @click="seguir(true, calcularInicio(corredor.Salida))" size="x-small">SEGUIR CP {{ checkpoint }}</v-btn>
+                  <v-btn  v-if="seguimiento" color="error" @click="pararSeguimiento()" size="x-small">PARAR</v-btn>            
+                </v-col>
+                <v-col class="ma-0 pa-0 text-center" cols="3">
+                  <v-btn v-if="!seguimientoSalida" :disabled="desactivarBotonSalida" color="success" @click="salida(true, calcularInicio(corredor.Salida))" size="x-small">SALIDA</v-btn>
+                  <v-btn  v-if="seguimientoSalida" color="error" @click="pararSalida()" size="x-small">PARAR</v-btn>            
+                </v-col>
+
+              </v-row>
+              <v-divider class="my-1"></v-divider>
+              <v-row class="mt-3">
+                <v-col class="ma-0 pa-0 text-center">
+                  <v-btn-toggle
+                    v-model="checkPointElegido"
+                  >
+                  <v-btn v-for="cp in listaCheckPoints"
+                    :key="cp"
+                    size="x-small"
+                    color="primary"
+                    :value="cp"
+                    style="height: 50% !important;"
+                  >{{ cp }}</v-btn>
+                </v-btn-toggle>
+                </v-col>
+
+              </v-row>
               
             </v-col>
             <v-col class="ma-0 pa-0 text-center" cols="3">
               <p>Salida</p>
-              <h3>{{ calcularInicio(corredor.Salida) }}   </h3>
+              <h3>{{ calcularInicio(corredor.Salida) }}</h3>
               <v-divider class="my-1"></v-divider>
-              <v-btn size="x-small" color="primary" @click="dialog=true">TIEMPOS</v-btn>                        
+              <v-btn size="x-small" color="primary" @click="dialog=true">TIEMPOS</v-btn>  
+              <v-divider class="my-1"></v-divider>
+              <v-row>
+                <v-col v-for="check in checkPointsCorredor.CheckPoints" class="text-center" :cols="12 / checkPointsCorredor.CheckPoints.length">
+                  <!-- <v-row>
+                    <v-col class="text-center"></v-col>
+                  </v-row>
+                  <v-row></v-row> -->
+                  <p 
+                    style="font-size: 12px;"
+                    :style="checkpoint === check.numero ? 'font-weight: bold; font-size: 14px;' : ''"
+                  
+                  >{{ check.numero }}</p>
+                  <v-icon 
+                  :color="check.tiempo ? 'green' : 'red'"
+                  icon="mdi-circle-medium"> </v-icon>
+                </v-col>
+              </v-row>                      
             </v-col>
           </v-row>
-          <v-row class="ma-0 pb-0">
+          <!-- <v-row class="ma-0 pb-0">
             <v-col class="ma-0 pa-0 text-center" cols="3" offset="2"><v-btn @click="enviarDSK()"  color="success" size="x-small">DSK NOMBRE</v-btn></v-col>
             <v-col class="ma-0 pa-0 text-center" cols="2">
               <v-btn v-if="!seguimiento" :disabled="desactivarBoton" color="success" @click="seguir(true, calcularInicio(corredor.Salida))" size="x-small">SEGUIR</v-btn>
@@ -33,13 +84,32 @@
               <v-btn  v-if="seguimientoSalida" color="error" @click="pararSalida()" size="x-small">PARAR</v-btn>            
             </v-col>
 
-          </v-row>
+          </v-row> -->
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="4">
+          <!-- <LiveVMIX v-if="seguimiento" :nombre="'INTERMEDIOS'" :temporizador="false" @activar="goLive" @previo="goPVW"/> -->
+          <!-- <LiveVMIX v-if="!seguimiento && !seguimientoSalida" :nombre="'NOMBRE_SOLO'" :temporizador="false" @activar="goLive" @previo="goPVW"/> -->
+          <!-- <LiveVMIX v-if="seguimientoSalida" :nombre="'DSK_CORREDOR'" :temporizador="false" @activar="goLive" @previo="goPVW"/> -->
+          <LiveVMIX :nombre="'DSK_CORREDOR'" :temporizador="false" @activar="goLive" @previo="goPVW"/>
+          <!-- <LiveVMIX :nombre="'INTERMEDIOS'" :temporizador="false" @activar="goLive" @previo="goPVW"/> -->
         </v-col>
         <v-col cols="4">
-          <LiveVMIX v-if="seguimiento" :nombre="'INTERMEDIOS'" :temporizador="false" @activar="goLive" @previo="goPVW"/>
-          <LiveVMIX v-if="!seguimiento && !seguimientoSalida" :nombre="'NOMBRE_SOLO'" :temporizador="false" @activar="goLive" @previo="goPVW"/>
-          <LiveVMIX v-if="seguimientoSalida" :nombre="'DSK_CORREDOR'" :temporizador="false" @activar="goLive" @previo="goPVW"/>
+          <!-- <LiveVMIX v-if="seguimiento" :nombre="'INTERMEDIOS'" :temporizador="false" @activar="goLive" @previo="goPVW"/> -->
+          <!-- <LiveVMIX v-if="!seguimiento && !seguimientoSalida" :nombre="'NOMBRE_SOLO'" :temporizador="false" @activar="goLive" @previo="goPVW"/> -->
+          <!-- <LiveVMIX v-if="seguimientoSalida" :nombre="'DSK_CORREDOR'" :temporizador="false" @activar="goLive" @previo="goPVW"/> -->
+          <!-- <LiveVMIX :nombre="'DSK_CORREDOR'" :temporizador="false" @activar="goLive" @previo="goPVW"/> -->
+          <LiveVMIX :nombre="'INTERMEDIOS'" :temporizador="false" @activar="goLive" @previo="goPVW"/>
         </v-col>
+        <v-col cols="4">
+          <!-- <LiveVMIX v-if="seguimiento" :nombre="'INTERMEDIOS'" :temporizador="false" @activar="goLive" @previo="goPVW"/> -->
+          <!-- <LiveVMIX v-if="!seguimiento && !seguimientoSalida" :nombre="'NOMBRE_SOLO'" :temporizador="false" @activar="goLive" @previo="goPVW"/> -->
+          <!-- <LiveVMIX v-if="seguimientoSalida" :nombre="'DSK_CORREDOR'" :temporizador="false" @activar="goLive" @previo="goPVW"/> -->
+          <LiveVMIX :nombre="'NOMBRE_SOLO'" :temporizador="false" @activar="goLive" @previo="goPVW"/>
+          <!-- <LiveVMIX :nombre="'INTERMEDIOS'" :temporizador="false" @activar="goLive" @previo="goPVW"/> -->
+        </v-col>
+
       </v-row>
       
       <!-- <v-col cols="3">
@@ -113,9 +183,9 @@
 
   const appStore = useAppStore()
   // appStore.getCsv1()
-  const props = defineProps(["corredor", "dorsal", "horaInicio", "parciales", "corredorActivo"]) 
+  const props = defineProps(["corredor", "dorsal", "horaInicio", "parciales", "corredorActivo", "listaCheckPoints"]) 
 
-  const { corredor, dorsal, horaInicio, parciales, corredorActivo } = toRefs(props);
+  const { corredor, dorsal, horaInicio, parciales, corredorActivo, listaCheckPoints } = toRefs(props);
   const inicio = horaInicio.value
   const { xmlData, checkpoint, seguimientoLIVE, listadoCheckPoints } = storeToRefs(appStore)
   // console.log(checkpoint.value)
@@ -123,6 +193,12 @@
   const dialog = ref(false)
 
   const test = ref(null)
+
+  const checkPointElegido = ref(checkpoint.value || null)
+
+  watch(() => checkPointElegido.value, val => {
+    appStore.setCheckPoint(val)
+  })
 
   // const listadoCheckPoints = ref(JSON.parse(localStorage.getItem('listado_checkpoints')))
 
@@ -188,10 +264,13 @@
   
     const horaInicio = tiempo.split(":")
     if (horaInicio.length <= 2) {
-      horaInicio.push('0')
+      horaInicio.push('00')
     }
     // console.log(horaInicio)
     const valoresInicio = inicio.split(":")
+    if (valoresInicio.length <= 2) {
+      valoresInicio.push('00')
+    }
 
     var horas = parseInt(horaInicio[0]) + parseInt(valoresInicio[0])
     var minutos = parseInt(horaInicio[1]) + parseInt(valoresInicio[1])
@@ -200,6 +279,10 @@
       minutos = minutos - 60
     }
     var segundos = parseInt(horaInicio[2]) + parseInt(valoresInicio[2])
+    if(horas < 10) horas = '0' + horas
+    if(minutos < 10) minutos = '0' + minutos
+    if(segundos < 10) segundos = '0' + segundos
+    // console.log(valoresInicio)
     
     return horas + ":" + minutos + ":" + segundos
   }
@@ -235,6 +318,26 @@
     
 
     return `${horasStr}:${minutosStr}:${segundosStr}`;
+  }
+
+  const aMinutosYSegundos = segundos => {
+    let signo = ''
+    if(segundos < 0) {
+      appStore.toggleVisibility("INTERMEDIOS", "SIGNO_MAS", false)
+      appStore.toggleVisibility("INTERMEDIOS", "SIGNO_MENOS", true)
+      segundos = Math.abs(segundos)
+      signo = '- '
+    } else {
+      appStore.toggleVisibility("INTERMEDIOS", "SIGNO_MAS", true)
+      appStore.toggleVisibility("INTERMEDIOS", "SIGNO_MENOS", false)
+    }
+    const minutos = Math.floor((segundos % 3600) / 60)
+    const segundosRestantes = Math.floor(segundos % 60)
+    const minutosStr = minutos.toString().padStart(2, "0")
+    const segundosStr = segundosRestantes.toString().padStart(2, "0")
+
+    return `${minutosStr}:${segundosStr}`;
+
   }
 
   const tiempoASegundos = (tiempoString) => {
@@ -280,7 +383,8 @@
       let secondsTotals = secondsActual-secondsInicio >= 0 ? secondsActual-secondsInicio : 0
       // console.log(secondsInicio)
 
-      appStore.liveUpdateIMG("DSK_CORREDOR", "BANDERA", "C:\\CROSS\\GRAFISMO\\BANDERAS\\" + bandera)
+      // appStore.liveUpdateIMG("DSK_CORREDOR", "BANDERA", "C:\\CROSS\\GRAFISMO\\BANDERAS\\" + appStore.bandera(corredor.value.Región))
+      appStore.liveUpdateIMG("DSK_CORREDOR", "BANDERA", "C:\\CROSS\\GRAFISMO\\BANDERAS\\" + corredor.value.Club + ".jpg")
       appStore.liveUpdate("DSK_CORREDOR", "DORSAL", corredor.value.Dorsal)
       // appStore.liveUpdate("DSK_CORREDOR", "DORSAL", dorsalElite || corredor.value.Dorsal)
       appStore.liveUpdate("DSK_CORREDOR", "NOMBRE", corredor.value.Nombre + " " + corredor.value.Apellidos)
@@ -302,16 +406,25 @@
     
     // Eliminar propio corredor
     
-    const listadoCategoriaSinCorredor = listadoCategoriaTodos.filter(el => el.Dorsal !== dorsal)
+    let listadoCategoriaSinCorredor = listadoCategoriaTodos.filter(el => el.Dorsal !== dorsal)
+
+    // Filtrar por estado
     
     // filtrar checkpoint
+    
+    // console.log(listadoCategoriaTodos)
     
     listadoCategoriaSinCorredor.forEach(el => {
       el.CheckPoints = el.CheckPoints.filter(cp => cp.numero == checkpoint.value)
     })
+    // listadoCategoriaSinCorredor = listadoCategoriaSinCorredor.filter(el => !Number.isNaN(el.CheckPoints[0].tiempo))
+    listadoCategoriaSinCorredor.forEach(el => console.log(el.CheckPoints[0]))
+    // listadoCategoriaSinCorredor.forEach(el => {
+    //   el.CheckPoints = el.CheckPoints.filter(cp => cp.numero == checkpoint.value)
+    // })
 
     const tiemposPeores = listadoCategoriaSinCorredor.filter(el => {
-      // console.log(el.CheckPoints[0].tiempo )
+      // console.log(el.CheckPoints[0] )
       return el.CheckPoints[0].tiempo !== null
     })
     
@@ -374,7 +487,7 @@
       if(tiemposMejores.length >= 1) {
         anterior = tiemposMejores[tiemposMejores.length-1]
         posicion_anterior = tiemposMejores.length 
-        nombre_anterior = anterior.Nombre + " " + anterior.Apellidos || ""
+        nombre_anterior = anterior.Dorsal + " - " + anterior.Nombre + " " + anterior.Apellidos || ""
         tiempo_anterior = convertirSegundos(anterior.CheckPoints[0].tiempo)
       }
 
@@ -387,7 +500,7 @@
       if (tiemposPeores.length >= 1) {
        siguiente = tiemposPeores[0]
        posicion_siguiente = posicion_anterior + 2
-       nombre_siguiente = siguiente.Nombre + " " + siguiente.Apellidos || ""
+       nombre_siguiente = siguiente.Dorsal + " - " + siguiente.Nombre + " " + siguiente.Apellidos || ""
       tiempo_siguiente = convertirSegundos(siguiente.CheckPoints[0].tiempo)
       }  
 
@@ -397,12 +510,30 @@
         }
         return `PUNTO INTERMEDIO ${checkpoint.value}`
       }
+
+      // DIRERENCIA DE TIEMPOS
+
+      let diferenciaTiempo = "00:00"
+      const tiempoCorredorActual = secondsActual-secondsInicio
+      if(tiemposMejores.length >= 1) {
+
+        const tiempoPrimerClas = tiemposMejores[0].CheckPoints[0].tiempo
+        diferenciaTiempo = aMinutosYSegundos(tiempoCorredorActual - tiempoPrimerClas)
+      } else if (tiemposPeores.length >= 1) {
+        const tiempoSegundoClas = tiemposPeores[0].CheckPoints[0].tiempo
+        diferenciaTiempo = aMinutosYSegundos(tiempoCorredorActual - tiempoSegundoClas)
+
+      }
+
+      //ENVIO A VMIX
+
       appStore.liveUpdate("INTERMEDIOS", "PUNTO_INTERMEDI", textoIntermedios())
       appStore.liveUpdate("INTERMEDIOS", "D_ACTUAL", posicion_anterior + 1)
-      appStore.liveUpdate("INTERMEDIOS", "N_ACTUAL", corredor.value.Nombre + " " + corredor.value.Apellidos)
+      appStore.liveUpdate("INTERMEDIOS", "N_ACTUAL", corredor.value.Dorsal + " - " + corredor.value.Nombre + " " + corredor.value.Apellidos)
       appStore.liveUpdate("INTERMEDIOS", "T_ACTUAL", convertirSegundos(secondsActual-secondsInicio))
+      appStore.liveUpdate("INTERMEDIOS", "DIF_ACTUAL", diferenciaTiempo)
 
-
+      // console.log(nombre_anterior)
       appStore.liveUpdate("INTERMEDIOS", "D_ANTERIOR", posicion_anterior)
       appStore.liveUpdate("INTERMEDIOS", "N_ANTERIOR", nombre_anterior)
       appStore.liveUpdate("INTERMEDIOS", "T_ANTERIOR", tiempo_anterior)
@@ -449,7 +580,7 @@
           tempPeores.push(peores[i])
         }
     }
-    console.log(tempMejores)
+    // console.log(tempMejores)
   }
   
   const pararSeguimiento = () => {
@@ -477,7 +608,8 @@
 
   const enviarDSK = () => {
     
-      appStore.liveUpdateIMG("NOMBRE_SOLO", "BANDERA", "C:\\CROSS\\GRAFISMO\\BANDERAS\\" + bandera)
+      appStore.liveUpdateIMG("NOMBRE_SOLO", "BANDERA", "C:\\CROSS\\GRAFISMO\\BANDERAS\\" + corredor.value.Club + ".jpg")
+      // appStore.liveUpdateIMG("NOMBRE_SOLO", "BANDERA", "C:\\CROSS\\GRAFISMO\\BANDERAS\\" + appStore.bandera(corredor.value.Región))
       appStore.liveUpdate("NOMBRE_SOLO", "DORSAL", corredor.value.Dorsal)
       // appStore.liveUpdate("NOMBRE_SOLO", "DORSAL", dorsalElite || corredor.value.Dorsal)
       appStore.liveUpdate("NOMBRE_SOLO", "NOMBRE", corredor.value.Nombre + " " + corredor.value.Apellidos)
@@ -550,7 +682,7 @@
     return `${resultado}.jpg`
   }
 
-  const bandera = provinciaAComunidad(corredor.value.Región)
+  // const bandera = provinciaAComunidad(corredor.value.Región)
   // const bandera = () => {
   //   const pais = corredor.value.Ciudad.toUpperCase()
   //   return `${pais}.jpg`
